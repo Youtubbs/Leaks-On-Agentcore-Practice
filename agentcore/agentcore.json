@@ -7,18 +7,54 @@
     "agentcore:created-by": "agentcore-cli",
     "agentcore:project-name": "PiiLab"
   },
-  "runtimes": [],
-  "memories": [],
-  "knowledgeBases": [],
-  "credentials": [],
-  "evaluators": [],
-  "onlineEvalConfigs": [],
-  "agentCoreGateways": [],
-  "policyEngines": [],
-  "configBundles": [],
-  "abTests": [],
-  "harnesses": [],
-  "datasets": [],
-  "capacityProviders": [],
-  "payments": []
+  "runtimes": [
+    {
+      "name": "LabAgent",
+      "build": "CodeZip",
+      "entrypoint": "main.py",
+      "codeLocation": "app/LabAgent/",
+      "runtimeVersion": "PYTHON_3_14",
+      "networkMode": "PUBLIC",
+      "protocol": "HTTP"
+    }
+  ],
+  "memories": [
+    
+  ],
+  "knowledgeBases": [
+    
+  ],
+  "credentials": [
+    
+  ],
+  "evaluators": [
+    
+  ],
+  "onlineEvalConfigs": [
+    
+  ],
+  "agentCoreGateways": [
+    
+  ],
+  "policyEngines": [
+    
+  ],
+  "configBundles": [
+    
+  ],
+  "abTests": [
+    
+  ],
+  "harnesses": [
+    
+  ],
+  "datasets": [
+    
+  ],
+  "capacityProviders": [
+    
+  ],
+  "payments": [
+    
+  ]
 }
